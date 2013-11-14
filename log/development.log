@@ -1,0 +1,21 @@
+
+
+Started GET "/" for 11.11.1.145 at 2013-11-14 15:07:41 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/lib/ruby/gems/1.9/gems/railties-4.0.1/lib/rails/templates/rails/welcome/index.html.erb (4.5ms)
+Completed 200 OK in 90ms (Views: 52.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/properties" for 11.11.1.145 at 2013-11-14 15:07:45 +0530
+Processing by Rails::InfoController#properties as */*
+  Rendered /usr/local/lib/ruby/gems/1.9/gems/railties-4.0.1/lib/rails/templates/rails/info/properties.html.erb (0.7ms)
+Completed 200 OK in 41ms (Views: 22.0ms | ActiveRecord: 8.2ms)
+
+
+Started GET "/rails/info/properties" for 11.11.1.145 at 2013-11-14 15:08:37 +0530
+Processing by Rails::InfoController#properties as */*
+  Rendered /usr/local/lib/ruby/gems/1.9/gems/railties-4.0.1/lib/rails/templates/rails/info/properties.html.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (4.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (3.3ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
